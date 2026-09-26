@@ -1,0 +1,3869 @@
+[
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "6588",
+     "Volume": 8.58,
+     "Price": 2.33,
+     "Amount": 20.0,
+     "DateTime": "2026-09-14T00:48:55"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007752816612354206639139",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "4994",
+     "Volume": 70.01,
+     "Price": 1.66,
+     "Amount": 116.22,
+     "DateTime": "2026-09-14T00:59:12"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "5051",
+     "Volume": 45.26,
+     "Price": 1.66,
+     "Amount": 75.13,
+     "DateTime": "2026-09-14T02:00:31"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "7835",
+     "Volume": 14.92,
+     "Price": 2.33,
+     "Amount": 34.76,
+     "DateTime": "2026-09-14T05:45:35"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007752816612354206639139",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "4995",
+     "Volume": 12.05,
+     "Price": 1.66,
+     "Amount": 20.0,
+     "DateTime": "2026-09-14T05:50:30"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007752816612354206639139",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "1",
+     "DateTime": "2026-09-14T06:02:15",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Status": "Ok",
+     "ProductHeight": 1917.6,
+     "WaterHeight": 1.6,
+     "Temperature": 32.8,
+     "ProductVolume": 23010.68,
+     "TankFillingPercentage": 76.7
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "2",
+     "DateTime": "2026-09-14T06:04:01",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Status": "Ok",
+     "ProductHeight": 1621.1,
+     "WaterHeight": 13.5,
+     "Temperature": 33.3,
+     "ProductVolume": 19452.86,
+     "TankFillingPercentage": 64.8
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "6221",
+     "Volume": 60.24,
+     "Price": 1.66,
+     "Amount": 100.0,
+     "DateTime": "2026-09-13T23:25:16"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "5353",
+     "Volume": 21.46,
+     "Price": 2.33,
+     "Amount": 50.0,
+     "DateTime": "2026-09-14T02:44:06"
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "1",
+     "DateTime": "2026-09-14T03:05:11",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Status": "Ok",
+     "ProductHeight": 1253.3,
+     "WaterHeight": 7.3,
+     "Temperature": 35.1,
+     "ProductVolume": 15039.75,
+     "TankFillingPercentage": 50.1
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "2",
+     "DateTime": "2026-09-14T03:05:35",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Status": "Ok",
+     "ProductHeight": 1471.7,
+     "WaterHeight": 2.7,
+     "Temperature": 30.1,
+     "ProductVolume": 17660.41,
+     "TankFillingPercentage": 58.9
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "6795",
+     "Volume": 67.2,
+     "Price": 2.18,
+     "Amount": 146.5,
+     "DateTime": "2026-09-14T03:06:54"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "2",
+     "DateTime": "2026-09-14T06:05:06",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Status": "Ok",
+     "ProductHeight": 1513.9,
+     "WaterHeight": 3.8,
+     "Temperature": 29.9,
+     "ProductVolume": 18167.16,
+     "TankFillingPercentage": 60.6
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "1",
+     "DateTime": "2026-09-14T06:05:57",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Status": "Ok",
+     "ProductHeight": 1369.7,
+     "WaterHeight": 13.3,
+     "Temperature": 33.3,
+     "ProductVolume": 16436.24,
+     "TankFillingPercentage": 54.8
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "6589",
+     "Volume": 22.93,
+     "Price": 2.18,
+     "Amount": 50.0,
+     "DateTime": "2026-09-14T07:18:03"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "6961",
+     "Volume": 35.99,
+     "Price": 2.33,
+     "Amount": 83.86,
+     "DateTime": "2026-09-14T04:33:58"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "2",
+     "DateTime": "2026-09-14T06:06:27",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Status": "Ok",
+     "ProductHeight": 1616.4,
+     "WaterHeight": 5.7,
+     "Temperature": 35.0,
+     "ProductVolume": 19397.24,
+     "TankFillingPercentage": 64.7
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "1",
+     "DateTime": "2026-09-14T06:08:14",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Status": "Ok",
+     "ProductHeight": 1475.4,
+     "WaterHeight": 13.8,
+     "Temperature": 33.8,
+     "ProductVolume": 17704.8,
+     "TankFillingPercentage": 59.0
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "7407",
+     "Volume": 9.17,
+     "Price": 2.18,
+     "Amount": 20.0,
+     "DateTime": "2026-09-14T07:47:17"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "6796",
+     "Volume": 9.17,
+     "Price": 2.18,
+     "Amount": 20.0,
+     "DateTime": "2026-09-14T06:29:06"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "1941",
+     "Volume": 33.9,
+     "Price": 2.18,
+     "Amount": 73.9,
+     "DateTime": "2026-09-14T10:13:10"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "6222",
+     "Volume": 12.05,
+     "Price": 1.66,
+     "Amount": 20.0,
+     "DateTime": "2026-09-14T07:14:43"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "7408",
+     "Volume": 19.02,
+     "Price": 2.18,
+     "Amount": 41.46,
+     "DateTime": "2026-09-14T10:03:22"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "7836",
+     "Volume": 43.99,
+     "Price": 2.18,
+     "Amount": 95.9,
+     "DateTime": "2026-09-14T10:36:45"
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "7409",
+     "Volume": 63.15,
+     "Price": 2.18,
+     "Amount": 137.67,
+     "DateTime": "2026-09-14T10:50:04"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "7410",
+     "Volume": 68.59,
+     "Price": 2.18,
+     "Amount": 149.53,
+     "DateTime": "2026-09-14T13:21:32"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "1849",
+     "Volume": 25.75,
+     "Price": 2.33,
+     "Amount": 60.0,
+     "DateTime": "2026-09-14T10:48:37"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "5385",
+     "Volume": 30.12,
+     "Price": 1.66,
+     "Amount": 50.0,
+     "DateTime": "2026-09-14T12:25:28"
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "5386",
+     "Volume": 49.87,
+     "Price": 1.66,
+     "Amount": 82.78,
+     "DateTime": "2026-09-14T13:49:36"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007752816612354206639139",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "7627",
+     "Volume": 42.36,
+     "Price": 2.33,
+     "Amount": 98.7,
+     "DateTime": "2026-09-14T11:22:59"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "7628",
+     "Volume": 66.07,
+     "Price": 2.33,
+     "Amount": 153.94,
+     "DateTime": "2026-09-14T12:52:59"
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "1848",
+     "Volume": 13.76,
+     "Price": 2.18,
+     "Amount": 30.0,
+     "DateTime": "2026-09-14T13:51:44"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "1942",
+     "Volume": 25.75,
+     "Price": 2.33,
+     "Amount": 60.0,
+     "DateTime": "2026-09-14T14:11:35"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "6223",
+     "Volume": 36.14,
+     "Price": 1.66,
+     "Amount": 60.0,
+     "DateTime": "2026-09-14T10:02:30"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "6797",
+     "Volume": 9.17,
+     "Price": 2.18,
+     "Amount": 20.0,
+     "DateTime": "2026-09-14T11:30:15"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "7837",
+     "Volume": 71.84,
+     "Price": 2.33,
+     "Amount": 167.39,
+     "DateTime": "2026-09-14T14:38:43"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "5052",
+     "Volume": 64.17,
+     "Price": 1.66,
+     "Amount": 106.52,
+     "DateTime": "2026-09-14T16:01:27"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007752816612354206639139",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "1849",
+     "Volume": 49.62,
+     "Price": 2.33,
+     "Amount": 115.61,
+     "DateTime": "2026-09-14T14:18:48"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "4996",
+     "Volume": 36.14,
+     "Price": 1.66,
+     "Amount": 60.0,
+     "DateTime": "2026-09-14T16:42:15"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007752816612354206639139",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "1850",
+     "Volume": 34.23,
+     "Price": 2.33,
+     "Amount": 79.76,
+     "DateTime": "2026-09-14T17:32:13"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "5354",
+     "Volume": 37.44,
+     "Price": 2.18,
+     "Amount": 81.62,
+     "DateTime": "2026-09-14T13:00:15"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "1",
+     "DateTime": "2026-09-14T15:00:42",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Status": "Ok",
+     "ProductHeight": 1117.0,
+     "WaterHeight": 12.8,
+     "Temperature": 34.4,
+     "ProductVolume": 13404.12,
+     "TankFillingPercentage": 44.7
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "5053",
+     "Volume": 64.08,
+     "Price": 1.66,
+     "Amount": 106.37,
+     "DateTime": "2026-09-14T17:42:56"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "7411",
+     "Volume": 9.17,
+     "Price": 2.18,
+     "Amount": 20.0,
+     "DateTime": "2026-09-14T17:50:45"
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "2",
+     "DateTime": "2026-09-14T18:02:19",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Status": "Ok",
+     "ProductHeight": 1453.6,
+     "WaterHeight": 14.1,
+     "Temperature": 31.8,
+     "ProductVolume": 17442.64,
+     "TankFillingPercentage": 58.1
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007752816612354206639139",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "7629",
+     "Volume": 45.87,
+     "Price": 2.18,
+     "Amount": 100.0,
+     "DateTime": "2026-09-14T17:50:22"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "2",
+     "DateTime": "2026-09-14T18:01:08",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Status": "Ok",
+     "ProductHeight": 1510.3,
+     "WaterHeight": 11.2,
+     "Temperature": 32.4,
+     "ProductVolume": 18124.12,
+     "TankFillingPercentage": 60.4
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "1",
+     "DateTime": "2026-09-14T18:02:39",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Status": "Ok",
+     "ProductHeight": 1741.6,
+     "WaterHeight": 1.0,
+     "Temperature": 32.7,
+     "ProductVolume": 20898.82,
+     "TankFillingPercentage": 69.7
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "6590",
+     "Volume": 4.29,
+     "Price": 2.33,
+     "Amount": 10.0,
+     "DateTime": "2026-09-14T17:17:36"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "2",
+     "DateTime": "2026-09-14T18:00:30",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Status": "Ok",
+     "ProductHeight": 1314.2,
+     "WaterHeight": 4.0,
+     "Temperature": 35.1,
+     "ProductVolume": 15770.9,
+     "TankFillingPercentage": 52.6
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "1",
+     "DateTime": "2026-09-14T18:04:21",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Status": "Ok",
+     "ProductHeight": 1234.4,
+     "WaterHeight": 0.8,
+     "Temperature": 31.3,
+     "ProductVolume": 14812.45,
+     "TankFillingPercentage": 49.4
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "1943",
+     "Volume": 12.87,
+     "Price": 2.33,
+     "Amount": 30.0,
+     "DateTime": "2026-09-14T18:09:05"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "6591",
+     "Volume": 25.75,
+     "Price": 2.33,
+     "Amount": 60.0,
+     "DateTime": "2026-09-14T18:30:27"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "1850",
+     "Volume": 18.69,
+     "Price": 2.33,
+     "Amount": 43.55,
+     "DateTime": "2026-09-14T19:57:43"
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "1851",
+     "Volume": 64.26,
+     "Price": 2.33,
+     "Amount": 149.73,
+     "DateTime": "2026-09-14T20:07:37"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "2",
+     "DateTime": "2026-09-14T15:01:05",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Status": "Ok",
+     "ProductHeight": 1365.0,
+     "WaterHeight": 9.6,
+     "Temperature": 30.4,
+     "ProductVolume": 16380.15,
+     "TankFillingPercentage": 54.6
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "6224",
+     "Volume": 6.02,
+     "Price": 1.66,
+     "Amount": 10.0,
+     "DateTime": "2026-09-14T15:32:36"
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "6962",
+     "Volume": 20.32,
+     "Price": 2.33,
+     "Amount": 47.35,
+     "DateTime": "2026-09-14T17:41:27"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "1852",
+     "Volume": 27.52,
+     "Price": 2.18,
+     "Amount": 60.0,
+     "DateTime": "2026-09-14T20:42:20"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "1",
+     "DateTime": "2026-09-14T18:02:45",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Status": "Ok",
+     "ProductHeight": 1351.7,
+     "WaterHeight": 12.2,
+     "Temperature": 29.0,
+     "ProductVolume": 16220.21,
+     "TankFillingPercentage": 54.1
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "7838",
+     "Volume": 62.96,
+     "Price": 2.33,
+     "Amount": 146.7,
+     "DateTime": "2026-09-14T19:38:57"
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "7839",
+     "Volume": 21.46,
+     "Price": 2.33,
+     "Amount": 50.0,
+     "DateTime": "2026-09-14T20:58:01"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "6798",
+     "Volume": 45.35,
+     "Price": 2.33,
+     "Amount": 105.67,
+     "DateTime": "2026-09-14T18:27:43"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "6592",
+     "Volume": 9.17,
+     "Price": 2.18,
+     "Amount": 20.0,
+     "DateTime": "2026-09-14T22:07:38"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "5054",
+     "Volume": 65.27,
+     "Price": 1.66,
+     "Amount": 108.35,
+     "DateTime": "2026-09-14T23:32:19"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "7407",
+     "Volume": 42.92,
+     "Price": 2.33,
+     "Amount": 100.0,
+     "DateTime": "2026-09-15T00:04:41"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007752816612354206639139",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "7629",
+     "Volume": 45.87,
+     "Price": 2.18,
+     "Amount": 100.0,
+     "DateTime": "2026-09-14T17:50:22"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "2",
+     "DateTime": "2026-09-14T18:01:08",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Status": "Ok",
+     "ProductHeight": 1510.3,
+     "WaterHeight": 11.2,
+     "Temperature": 32.4,
+     "ProductVolume": 18124.12,
+     "TankFillingPercentage": 60.4
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "1",
+     "DateTime": "2026-09-14T18:02:39",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Status": "Ok",
+     "ProductHeight": 1741.6,
+     "WaterHeight": 1.0,
+     "Temperature": 32.7,
+     "ProductVolume": 20898.82,
+     "TankFillingPercentage": 69.7
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "6799",
+     "Volume": 6.37,
+     "Price": 2.33,
+     "Amount": 14.84,
+     "DateTime": "2026-09-14T22:34:43"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007752816612354206639139",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "1851",
+     "Volume": 72.32,
+     "Price": 2.18,
+     "Amount": 157.66,
+     "DateTime": "2026-09-14T20:06:47"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "4997",
+     "Volume": 64.11,
+     "Price": 1.66,
+     "Amount": 1064.2,
+     "DateTime": "2026-09-14T23:03:47"
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "5021",
+     "Volume": 9.17,
+     "Price": 2.18,
+     "Amount": 20.0,
+     "DateTime": "2026-09-15T02:06:10"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "5387",
+     "Volume": 30.12,
+     "Price": 1.66,
+     "Amount": 50.0,
+     "DateTime": "2026-09-15T02:12:17"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "6963",
+     "Volume": 25.75,
+     "Price": 2.33,
+     "Amount": 60.0,
+     "DateTime": "2026-09-15T02:09:34"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007752816612354206639139",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "7630",
+     "Volume": 45.87,
+     "Price": 2.18,
+     "Amount": 100.0,
+     "DateTime": "2026-09-15T05:19:57"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "6800",
+     "Volume": 45.87,
+     "Price": 2.18,
+     "Amount": 100.0,
+     "DateTime": "2026-09-15T02:13:10"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "6801",
+     "Volume": 8.58,
+     "Price": 2.33,
+     "Amount": 20.0,
+     "DateTime": "2026-09-15T02:32:55"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "7408",
+     "Volume": 35.38,
+     "Price": 2.18,
+     "Amount": 77.13,
+     "DateTime": "2026-09-15T05:20:53"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "2",
+     "DateTime": "2026-09-15T06:02:50",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Status": "Ok",
+     "ProductHeight": 1310.2,
+     "WaterHeight": 14.7,
+     "Temperature": 31.7,
+     "ProductVolume": 15722.63,
+     "TankFillingPercentage": 52.4
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "1",
+     "DateTime": "2026-09-15T06:05:48",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Status": "Ok",
+     "ProductHeight": 1207.7,
+     "WaterHeight": 10.4,
+     "Temperature": 29.4,
+     "ProductVolume": 14492.11,
+     "TankFillingPercentage": 48.3
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007706552332880992321564",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "2",
+     "DateTime": "2026-09-15T06:05:44",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Status": "Ok",
+     "ProductHeight": 1685.5,
+     "WaterHeight": 7.9,
+     "Temperature": 32.6,
+     "ProductVolume": 20226.22,
+     "TankFillingPercentage": 67.4
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "1",
+     "DateTime": "2026-09-15T06:06:27",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Status": "Ok",
+     "ProductHeight": 1259.2,
+     "WaterHeight": 7.8,
+     "Temperature": 30.2,
+     "ProductVolume": 15110.63,
+     "TankFillingPercentage": 50.4
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007752816612354206639139",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "2",
+     "DateTime": "2026-09-15T06:03:00",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Status": "Ok",
+     "ProductHeight": 1356.6,
+     "WaterHeight": 2.7,
+     "Temperature": 35.5,
+     "ProductVolume": 16279.1,
+     "TankFillingPercentage": 54.3
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "1",
+     "DateTime": "2026-09-15T06:08:05",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Status": "Ok",
+     "ProductHeight": 1599.5,
+     "WaterHeight": 12.3,
+     "Temperature": 32.8,
+     "ProductVolume": 19193.73,
+     "TankFillingPercentage": 64.0
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "5388",
+     "Volume": 18.07,
+     "Price": 1.66,
+     "Amount": 30.0,
+     "DateTime": "2026-09-15T05:38:01"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "2",
+     "DateTime": "2026-09-15T06:07:50",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Status": "Ok",
+     "ProductHeight": 1152.0,
+     "WaterHeight": 14.2,
+     "Temperature": 33.0,
+     "ProductVolume": 13824.48,
+     "TankFillingPercentage": 46.1
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "1",
+     "DateTime": "2026-09-15T06:09:14",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Status": "Ok",
+     "ProductHeight": 1148.4,
+     "WaterHeight": 9.7,
+     "Temperature": 32.7,
+     "ProductVolume": 13780.84,
+     "TankFillingPercentage": 45.9
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "2",
+     "DateTime": "2026-09-15T03:04:09",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Status": "Ok",
+     "ProductHeight": 1210.8,
+     "WaterHeight": 2.7,
+     "Temperature": 31.1,
+     "ProductVolume": 14529.2,
+     "TankFillingPercentage": 48.4
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "1",
+     "DateTime": "2026-09-15T03:09:24",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Status": "Ok",
+     "ProductHeight": 905.3,
+     "WaterHeight": 13.7,
+     "Temperature": 33.1,
+     "ProductVolume": 10863.99,
+     "TankFillingPercentage": 36.2
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "6802",
+     "Volume": 45.79,
+     "Price": 2.18,
+     "Amount": 99.82,
+     "DateTime": "2026-09-15T03:43:30"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "5355",
+     "Volume": 21.46,
+     "Price": 2.33,
+     "Amount": 50.0,
+     "DateTime": "2026-09-15T03:51:38"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "7840",
+     "Volume": 53.64,
+     "Price": 2.33,
+     "Amount": 124.98,
+     "DateTime": "2026-09-15T07:27:59"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "7841",
+     "Volume": 36.64,
+     "Price": 2.33,
+     "Amount": 85.37,
+     "DateTime": "2026-09-15T07:31:39"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "5055",
+     "Volume": 12.05,
+     "Price": 1.66,
+     "Amount": 20.0,
+     "DateTime": "2026-09-15T09:32:48"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "1853",
+     "Volume": 45.33,
+     "Price": 2.33,
+     "Amount": 105.62,
+     "DateTime": "2026-09-15T09:39:10"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "7842",
+     "Volume": 36.05,
+     "Price": 2.18,
+     "Amount": 78.59,
+     "DateTime": "2026-09-15T09:43:02"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007752816612354206639139",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "7631",
+     "Volume": 4.29,
+     "Price": 2.33,
+     "Amount": 10.0,
+     "DateTime": "2026-09-15T09:58:56"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "6593",
+     "Volume": 29.62,
+     "Price": 2.18,
+     "Amount": 64.57,
+     "DateTime": "2026-09-15T11:10:44"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "6594",
+     "Volume": 43.78,
+     "Price": 2.33,
+     "Amount": 102.01,
+     "DateTime": "2026-09-15T11:18:08"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "7409",
+     "Volume": 13.84,
+     "Price": 2.33,
+     "Amount": 32.25,
+     "DateTime": "2026-09-15T10:40:59"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "7412",
+     "Volume": 22.93,
+     "Price": 2.18,
+     "Amount": 50.0,
+     "DateTime": "2026-09-15T11:48:59"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "6225",
+     "Volume": 18.07,
+     "Price": 1.66,
+     "Amount": 30.0,
+     "DateTime": "2026-09-15T04:41:56"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "6803",
+     "Volume": 22.93,
+     "Price": 2.18,
+     "Amount": 50.0,
+     "DateTime": "2026-09-15T10:29:49"
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "6964",
+     "Volume": 9.17,
+     "Price": 2.18,
+     "Amount": 20.0,
+     "DateTime": "2026-09-15T10:41:24"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007752816612354206639139",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "7632",
+     "Volume": 9.17,
+     "Price": 2.18,
+     "Amount": 20.0,
+     "DateTime": "2026-09-15T10:00:10"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "7633",
+     "Volume": 25.75,
+     "Price": 2.33,
+     "Amount": 60.0,
+     "DateTime": "2026-09-15T13:06:02"
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "1852",
+     "Volume": 42.92,
+     "Price": 2.33,
+     "Amount": 100.0,
+     "DateTime": "2026-09-15T13:55:51"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "6595",
+     "Volume": 4.29,
+     "Price": 2.33,
+     "Amount": 10.0,
+     "DateTime": "2026-09-15T11:42:42"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "1944",
+     "Volume": 22.93,
+     "Price": 2.18,
+     "Amount": 50.0,
+     "DateTime": "2026-09-15T12:21:32"
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "1854",
+     "Volume": 8.58,
+     "Price": 2.33,
+     "Amount": 20.0,
+     "DateTime": "2026-09-15T15:37:20"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007706552332880992321564",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "7154",
+     "Volume": 33.25,
+     "Price": 2.33,
+     "Amount": 77.47,
+     "DateTime": "2026-09-15T14:53:00"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "4409",
+     "Volume": 12.05,
+     "Price": 1.66,
+     "Amount": 20.0,
+     "DateTime": "2026-09-15T15:53:12"
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "7155",
+     "Volume": 70.13,
+     "Price": 2.18,
+     "Amount": 152.88,
+     "DateTime": "2026-09-15T16:56:57"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "6596",
+     "Volume": 9.17,
+     "Price": 2.18,
+     "Amount": 20.0,
+     "DateTime": "2026-09-15T17:04:04"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "1",
+     "DateTime": "2026-09-15T18:00:19",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Status": "Ok",
+     "ProductHeight": 1060.5,
+     "WaterHeight": 4.1,
+     "Temperature": 35.0,
+     "ProductVolume": 12726.0,
+     "TankFillingPercentage": 42.4
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "2",
+     "DateTime": "2026-09-15T18:02:44",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Status": "Ok",
+     "ProductHeight": 1075.5,
+     "WaterHeight": 6.9,
+     "Temperature": 32.9,
+     "ProductVolume": 12905.53,
+     "TankFillingPercentage": 43.0
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "5056",
+     "Volume": 60.24,
+     "Price": 1.66,
+     "Amount": 100.0,
+     "DateTime": "2026-09-15T14:03:37"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "7413",
+     "Volume": 8.58,
+     "Price": 2.33,
+     "Amount": 20.0,
+     "DateTime": "2026-09-15T15:08:56"
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "1",
+     "DateTime": "2026-09-15T18:02:48",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Status": "Ok",
+     "ProductHeight": 1101.1,
+     "WaterHeight": 3.2,
+     "Temperature": 33.1,
+     "ProductVolume": 13213.54,
+     "TankFillingPercentage": 44.0
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "6226",
+     "Volume": 26.42,
+     "Price": 1.66,
+     "Amount": 43.86,
+     "DateTime": "2026-09-15T12:08:15"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "1",
+     "DateTime": "2026-09-15T15:04:34",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Status": "Ok",
+     "ProductHeight": 750.4,
+     "WaterHeight": 7.7,
+     "Temperature": 29.9,
+     "ProductVolume": 9004.94,
+     "TankFillingPercentage": 30.0
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "2",
+     "DateTime": "2026-09-15T15:05:02",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Status": "Ok",
+     "ProductHeight": 1047.6,
+     "WaterHeight": 0.7,
+     "Temperature": 32.6,
+     "ProductVolume": 12571.32,
+     "TankFillingPercentage": 41.9
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007752816612354206639139",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "7634",
+     "Volume": 8.58,
+     "Price": 2.33,
+     "Amount": 20.0,
+     "DateTime": "2026-09-15T14:45:30"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "4998",
+     "Volume": 50.83,
+     "Price": 1.66,
+     "Amount": 84.38,
+     "DateTime": "2026-09-15T15:29:26"
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "2",
+     "DateTime": "2026-09-15T18:06:01",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Status": "Ok",
+     "ProductHeight": 1144.7,
+     "WaterHeight": 2.5,
+     "Temperature": 33.9,
+     "ProductVolume": 13736.09,
+     "TankFillingPercentage": 45.8
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007706552332880992321564",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "1",
+     "DateTime": "2026-09-15T18:06:26",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Status": "Ok",
+     "ProductHeight": 1142.8,
+     "WaterHeight": 1.7,
+     "Temperature": 35.4,
+     "ProductVolume": 13713.98,
+     "TankFillingPercentage": 45.7
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "2",
+     "DateTime": "2026-09-15T18:08:10",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Status": "Ok",
+     "ProductHeight": 1547.2,
+     "WaterHeight": 10.0,
+     "Temperature": 30.3,
+     "ProductVolume": 18566.43,
+     "TankFillingPercentage": 61.9
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007752816612354206639139",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "1",
+     "DateTime": "2026-09-15T18:08:15",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Status": "Ok",
+     "ProductHeight": 1408.8,
+     "WaterHeight": 13.4,
+     "Temperature": 31.4,
+     "ProductVolume": 16905.94,
+     "TankFillingPercentage": 56.4
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "6804",
+     "Volume": 59.31,
+     "Price": 2.18,
+     "Amount": 129.3,
+     "DateTime": "2026-09-15T15:52:55"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "2",
+     "DateTime": "2026-09-15T18:08:42",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Status": "Ok",
+     "ProductHeight": 1212.1,
+     "WaterHeight": 11.4,
+     "Temperature": 31.4,
+     "ProductVolume": 14545.56,
+     "TankFillingPercentage": 48.5
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "7843",
+     "Volume": 22.93,
+     "Price": 2.18,
+     "Amount": 50.0,
+     "DateTime": "2026-09-15T18:53:22"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "6597",
+     "Volume": 45.87,
+     "Price": 2.18,
+     "Amount": 100.0,
+     "DateTime": "2026-09-15T18:56:39"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007752816612354206639139",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "4999",
+     "Volume": 12.05,
+     "Price": 1.66,
+     "Amount": 20.0,
+     "DateTime": "2026-09-15T19:15:37"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "5022",
+     "Volume": 13.76,
+     "Price": 2.18,
+     "Amount": 30.0,
+     "DateTime": "2026-09-15T19:32:17"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007752816612354206639139",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "1853",
+     "Volume": 21.46,
+     "Price": 2.33,
+     "Amount": 50.0,
+     "DateTime": "2026-09-15T21:52:39"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "1854",
+     "Volume": 22.93,
+     "Price": 2.18,
+     "Amount": 50.0,
+     "DateTime": "2026-09-16T01:34:49"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "7410",
+     "Volume": 9.66,
+     "Price": 2.18,
+     "Amount": 21.06,
+     "DateTime": "2026-09-15T19:26:30"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "7414",
+     "Volume": 8.58,
+     "Price": 2.33,
+     "Amount": 20.0,
+     "DateTime": "2026-09-15T23:14:22"
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "5057",
+     "Volume": 30.12,
+     "Price": 1.66,
+     "Amount": 50.0,
+     "DateTime": "2026-09-16T02:12:55"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "1945",
+     "Volume": 58.82,
+     "Price": 2.18,
+     "Amount": 128.23,
+     "DateTime": "2026-09-15T23:31:18"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "1855",
+     "Volume": 21.46,
+     "Price": 2.33,
+     "Amount": 50.0,
+     "DateTime": "2026-09-16T02:39:59"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "1946",
+     "Volume": 7.92,
+     "Price": 2.18,
+     "Amount": 17.27,
+     "DateTime": "2026-09-16T05:01:52"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "2",
+     "DateTime": "2026-09-16T06:01:18",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Status": "Ok",
+     "ProductHeight": 1012.9,
+     "WaterHeight": 6.2,
+     "Temperature": 31.6,
+     "ProductVolume": 12154.79,
+     "TankFillingPercentage": 40.5
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "1",
+     "DateTime": "2026-09-16T06:02:30",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Status": "Ok",
+     "ProductHeight": 914.2,
+     "WaterHeight": 0.0,
+     "Temperature": 33.0,
+     "ProductVolume": 10970.81,
+     "TankFillingPercentage": 36.6
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "6598",
+     "Volume": 21.46,
+     "Price": 2.33,
+     "Amount": 50.0,
+     "DateTime": "2026-09-16T05:18:21"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "1",
+     "DateTime": "2026-09-16T06:03:27",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Status": "Ok",
+     "ProductHeight": 862.4,
+     "WaterHeight": 14.3,
+     "Temperature": 33.5,
+     "ProductVolume": 10348.87,
+     "TankFillingPercentage": 34.5
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "2",
+     "DateTime": "2026-09-16T06:07:06",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Status": "Ok",
+     "ProductHeight": 959.4,
+     "WaterHeight": 12.3,
+     "Temperature": 35.8,
+     "ProductVolume": 11512.66,
+     "TankFillingPercentage": 38.4
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "5356",
+     "Volume": 9.17,
+     "Price": 2.18,
+     "Amount": 20.0,
+     "DateTime": "2026-09-15T19:10:52"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "5357",
+     "Volume": 9.17,
+     "Price": 2.18,
+     "Amount": 20.0,
+     "DateTime": "2026-09-15T22:15:34"
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "2",
+     "DateTime": "2026-09-16T03:07:48",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Status": "Ok",
+     "ProductHeight": 955.7,
+     "WaterHeight": 1.5,
+     "Temperature": 33.4,
+     "ProductVolume": 11468.58,
+     "TankFillingPercentage": 38.2
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "1",
+     "DateTime": "2026-09-16T03:08:51",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Status": "Ok",
+     "ProductHeight": 543.0,
+     "WaterHeight": 2.2,
+     "Temperature": 35.7,
+     "ProductVolume": 6515.61,
+     "TankFillingPercentage": 21.7
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007752816612354206639139",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "7635",
+     "Volume": 23.61,
+     "Price": 2.33,
+     "Amount": 55.01,
+     "DateTime": "2026-09-16T05:17:30"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "2",
+     "DateTime": "2026-09-16T06:02:58",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Status": "Ok",
+     "ProductHeight": 1041.5,
+     "WaterHeight": 11.1,
+     "Temperature": 31.3,
+     "ProductVolume": 12497.7,
+     "TankFillingPercentage": 41.7
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "1",
+     "DateTime": "2026-09-16T06:09:45",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Status": "Ok",
+     "ProductHeight": 1205.5,
+     "WaterHeight": 12.5,
+     "Temperature": 32.6,
+     "ProductVolume": 14466.0,
+     "TankFillingPercentage": 48.2
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "5058",
+     "Volume": 35.8,
+     "Price": 1.66,
+     "Amount": 59.43,
+     "DateTime": "2026-09-16T07:01:18"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007752816612354206639139",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "1855",
+     "Volume": 14.62,
+     "Price": 2.33,
+     "Amount": 34.06,
+     "DateTime": "2026-09-16T06:47:45"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "5000",
+     "Volume": 60.24,
+     "Price": 1.66,
+     "Amount": 100.0,
+     "DateTime": "2026-09-16T08:22:31"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "1856",
+     "Volume": 9.17,
+     "Price": 2.18,
+     "Amount": 20.0,
+     "DateTime": "2026-09-16T09:03:03"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "1857",
+     "Volume": 9.17,
+     "Price": 2.18,
+     "Amount": 20.0,
+     "DateTime": "2026-09-16T09:48:15"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "7844",
+     "Volume": 73.23,
+     "Price": 2.18,
+     "Amount": 159.64,
+     "DateTime": "2026-09-16T07:43:12"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "7845",
+     "Volume": 14.16,
+     "Price": 2.18,
+     "Amount": 30.87,
+     "DateTime": "2026-09-16T09:21:07"
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "5059",
+     "Volume": 30.12,
+     "Price": 1.66,
+     "Amount": 50.0,
+     "DateTime": "2026-09-16T09:58:08"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "6227",
+     "Volume": 66.09,
+     "Price": 1.66,
+     "Amount": 109.71,
+     "DateTime": "2026-09-16T04:48:12"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "5358",
+     "Volume": 25.22,
+     "Price": 2.18,
+     "Amount": 54.98,
+     "DateTime": "2026-09-16T06:48:47"
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "5359",
+     "Volume": 42.92,
+     "Price": 2.33,
+     "Amount": 100.0,
+     "DateTime": "2026-09-16T08:11:03"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "5360",
+     "Volume": 45.87,
+     "Price": 2.18,
+     "Amount": 100.0,
+     "DateTime": "2026-09-16T08:12:22"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007752816612354206639139",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "7636",
+     "Volume": 71.97,
+     "Price": 2.33,
+     "Amount": 167.69,
+     "DateTime": "2026-09-16T08:51:34"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "7637",
+     "Volume": 22.93,
+     "Price": 2.18,
+     "Amount": 50.0,
+     "DateTime": "2026-09-16T11:24:11"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "5361",
+     "Volume": 52.22,
+     "Price": 2.33,
+     "Amount": 121.67,
+     "DateTime": "2026-09-16T08:28:18"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "5389",
+     "Volume": 39.69,
+     "Price": 1.66,
+     "Amount": 65.89,
+     "DateTime": "2026-09-16T10:23:00"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "5390",
+     "Volume": 46.31,
+     "Price": 1.66,
+     "Amount": 76.87,
+     "DateTime": "2026-09-16T11:35:36"
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "6599",
+     "Volume": 21.46,
+     "Price": 2.33,
+     "Amount": 50.0,
+     "DateTime": "2026-09-16T12:19:43"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "1858",
+     "Volume": 9.17,
+     "Price": 2.18,
+     "Amount": 20.0,
+     "DateTime": "2026-09-16T12:21:18"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "6600",
+     "Volume": 45.87,
+     "Price": 2.18,
+     "Amount": 100.0,
+     "DateTime": "2026-09-16T13:29:40"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "6228",
+     "Volume": 26.85,
+     "Price": 1.66,
+     "Amount": 44.57,
+     "DateTime": "2026-09-16T10:36:48"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "7411",
+     "Volume": 36.91,
+     "Price": 2.18,
+     "Amount": 80.46,
+     "DateTime": "2026-09-16T12:02:33"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "7412",
+     "Volume": 12.87,
+     "Price": 2.33,
+     "Amount": 30.0,
+     "DateTime": "2026-09-16T12:54:07"
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "7846",
+     "Volume": 21.46,
+     "Price": 2.33,
+     "Amount": 50.0,
+     "DateTime": "2026-09-16T14:39:50"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "6227",
+     "Volume": 66.09,
+     "Price": 1.66,
+     "Amount": 109.71,
+     "DateTime": "2026-09-16T04:48:12"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "5358",
+     "Volume": 25.22,
+     "Price": 2.18,
+     "Amount": 54.98,
+     "DateTime": "2026-09-16T06:48:47"
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "5359",
+     "Volume": 42.92,
+     "Price": 2.33,
+     "Amount": 100.0,
+     "DateTime": "2026-09-16T08:11:03"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007752816612354206639139",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "5023",
+     "Volume": 45.87,
+     "Price": 2.18,
+     "Amount": 100.0,
+     "DateTime": "2026-09-16T12:46:59"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "5001",
+     "Volume": 12.05,
+     "Price": 1.66,
+     "Amount": 20.0,
+     "DateTime": "2026-09-16T16:00:27"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "7847",
+     "Volume": 22.91,
+     "Price": 2.18,
+     "Amount": 49.94,
+     "DateTime": "2026-09-16T17:09:50"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "3",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "1859",
+     "Volume": 5.05,
+     "Price": 2.33,
+     "Amount": 11.77,
+     "DateTime": "2026-09-16T17:38:17"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "6965",
+     "Volume": 42.07,
+     "Price": 2.18,
+     "Amount": 91.71,
+     "DateTime": "2026-09-16T14:06:29"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "5362",
+     "Volume": 22.93,
+     "Price": 2.18,
+     "Amount": 50.0,
+     "DateTime": "2026-09-16T14:53:24"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "1",
+     "DateTime": "2026-09-16T18:01:05",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Status": "Ok",
+     "ProductHeight": 772.9,
+     "WaterHeight": 9.5,
+     "Temperature": 30.4,
+     "ProductVolume": 9274.27,
+     "TankFillingPercentage": 30.9
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "2",
+     "DateTime": "2026-09-16T18:01:09",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Status": "Ok",
+     "ProductHeight": 857.9,
+     "WaterHeight": 12.6,
+     "Temperature": 33.9,
+     "ProductVolume": 10294.92,
+     "TankFillingPercentage": 34.3
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "2",
+     "DateTime": "2026-09-16T18:03:07",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Status": "Ok",
+     "ProductHeight": 823.2,
+     "WaterHeight": 5.5,
+     "Temperature": 35.9,
+     "ProductVolume": 9877.99,
+     "TankFillingPercentage": 32.9
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "1",
+     "DateTime": "2026-09-16T18:04:03",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Status": "Ok",
+     "ProductHeight": 765.3,
+     "WaterHeight": 14.2,
+     "Temperature": 29.4,
+     "ProductVolume": 9183.04,
+     "TankFillingPercentage": 30.6
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "2",
+     "DateTime": "2026-09-16T15:08:28",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Status": "Ok",
+     "ProductHeight": 768.5,
+     "WaterHeight": 6.0,
+     "Temperature": 34.7,
+     "ProductVolume": 9222.12,
+     "TankFillingPercentage": 30.7
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007752816612354206639139",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "2",
+     "DateTime": "2026-09-16T18:08:14",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Status": "Ok",
+     "ProductHeight": 857.8,
+     "WaterHeight": 4.9,
+     "Temperature": 32.0,
+     "ProductVolume": 10293.12,
+     "TankFillingPercentage": 34.3
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "1",
+     "DateTime": "2026-09-16T18:09:32",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Status": "Ok",
+     "ProductHeight": 1086.8,
+     "WaterHeight": 3.1,
+     "Temperature": 30.1,
+     "ProductVolume": 13041.18,
+     "TankFillingPercentage": 43.5
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "5002",
+     "Volume": 18.07,
+     "Price": 1.66,
+     "Amount": 30.0,
+     "DateTime": "2026-09-16T18:12:16"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "ProbeMeasurements",
+    "Data": {
+     "Probe": "1",
+     "DateTime": "2026-09-16T15:08:53",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Status": "Ok",
+     "ProductHeight": 334.5,
+     "WaterHeight": 4.6,
+     "Temperature": 35.4,
+     "ProductVolume": 4014.12,
+     "TankFillingPercentage": 13.4
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "6229",
+     "Volume": 38.24,
+     "Price": 1.66,
+     "Amount": 63.48,
+     "DateTime": "2026-09-16T15:18:03"
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "6230",
+     "Volume": 12.05,
+     "Price": 1.66,
+     "Amount": 20.0,
+     "DateTime": "2026-09-16T15:54:08"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "7413",
+     "Volume": 12.87,
+     "Price": 2.33,
+     "Amount": 30.0,
+     "DateTime": "2026-09-16T18:54:26"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "7415",
+     "Volume": 22.93,
+     "Price": 2.18,
+     "Amount": 50.0,
+     "DateTime": "2026-09-16T19:40:35"
+    }
+   },
+   {
+    "Id": 3,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "7414",
+     "Volume": 12.87,
+     "Price": 2.33,
+     "Amount": 30.0,
+     "DateTime": "2026-09-16T20:16:52"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007795293922342715931953",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "5060",
+     "Volume": 32.59,
+     "Price": 1.66,
+     "Amount": 54.1,
+     "DateTime": "2026-09-16T21:13:34"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007752816612354206639139",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "5003",
+     "Volume": 36.14,
+     "Price": 1.66,
+     "Amount": 60.0,
+     "DateTime": "2026-09-16T18:30:48"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "7638",
+     "Volume": 35.46,
+     "Price": 2.33,
+     "Amount": 82.62,
+     "DateTime": "2026-09-16T21:41:16"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007725266716899536383837",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "6601",
+     "Volume": 4.29,
+     "Price": 2.33,
+     "Amount": 10.0,
+     "DateTime": "2026-09-16T20:56:18"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "1",
+     "Nozzle": "1",
+     "FuelGradeId": "1",
+     "FuelGradeName": "Gasoline 91",
+     "Transaction": "6602",
+     "Volume": 66.99,
+     "Price": 2.18,
+     "Amount": 146.04,
+     "DateTime": "2026-09-16T22:27:13"
+    }
+   }
+  ]
+ },
+ {
+  "PtsId": "007756165832532719814330",
+  "Protocol": "jsonPTS",
+  "Packets": [
+   {
+    "Id": 1,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "2",
+     "Nozzle": "2",
+     "FuelGradeId": "2",
+     "FuelGradeName": "Gasoline 95",
+     "Transaction": "5363",
+     "Volume": 21.46,
+     "Price": 2.33,
+     "Amount": 50.0,
+     "DateTime": "2026-09-16T17:04:01"
+    }
+   },
+   {
+    "Id": 2,
+    "Type": "UploadPumpTransaction",
+    "Data": {
+     "Pump": "4",
+     "Nozzle": "1",
+     "FuelGradeId": "3",
+     "FuelGradeName": "Diesel",
+     "Transaction": "6231",
+     "Volume": 30.12,
+     "Price": 1.66,
+     "Amount": 50.0,
+     "DateTime": "2026-09-16T20:35:40"
+    }
+   }
+  ]
+ }
+]
