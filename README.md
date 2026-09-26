@@ -1,8 +1,7 @@
-# Pure-IN Take-Home: 200 Messages from the Forecourt
-
+# Pure-IN take-home: station sales in PostgreSQL
 Loads the sample controller messages into PostgreSQL, produces daily sales
 per station in Riyadh calendar days, and documents what in the data I
-wouldn't trust at face value -- and what I did about each thing.
+wouldn't trust at face value - and what I did about each thing.
 
 ## How to run it
 
@@ -51,11 +50,11 @@ erDiagram
     raw_deliveries ||--o{ tank_readings : contains
 ```
 
-- **stations / controllers** — from `stations.json`. `controllers` allows
+- **stations / controllers** : from `stations.json`. `controllers` allows
   `station_id` and `utc_offset_minutes` to be `NULL`, on purpose (finding #1).
-- **raw_deliveries** — every delivery received, stored once, keyed by a
+- **raw_deliveries** : every delivery received, stored once, keyed by a
   hash of its full content.
-- **pump_transactions / tank_readings** — one row per packet, linked to the
+- **pump_transactions / tank_readings** : one row per packet, linked to the
   delivery it came from. Each keeps the controller's own timestamp as sent
   (`datetime_controller`) and the converted instant (`datetime_utc`,
   `TIMESTAMPTZ`).
@@ -77,7 +76,7 @@ time and asserts no row counts change.
 
 Timestamps are converted with the controller's own offset into a
 timezone-aware UTC value before insert, so results don't depend on the
-database session's `TimeZone` setting —
+database session's `TimeZone` setting 
 `test_utc_conversion_does_not_depend_on_session_timezone` checks this with
 the session set to `Asia/Riyadh`.
 
@@ -108,8 +107,8 @@ The unregistered controller's 3 sales (250.35 SAR) are listed separately by
 isn't in `stations.json`. Its rows are loaded and kept, with `station_id`
 and `utc_offset_minutes` left `NULL`, and its sales are reported separately
 rather than guessed into a station or dropped. Its tank readings fall at
-06:0x and 18:0x on its own clock — the same schedule as Stations A-C (see
-#5) — so its clock is very likely UTC+3. I still don't attribute it to a
+06:0x and 18:0x on its own clock the same schedule as Stations A-C (see
+#5) so its clock is very likely UTC+3. I still don't attribute it to a
 station: that needs someone to confirm where it is installed.
 
 **2. Two deliveries were resent byte-for-byte.** One from Station B (sale
@@ -121,30 +120,30 @@ too.
 At Station A, pump 1 issues 7407-7415 and pump 2 issues 7407-7414, so e.g.
 txn 7407 is a 9.17 L sale on pump 1 *and* a separate 42.92 L sale on
 pump 2. Every other pump has its own counter too. The data isn't wrong,
-but `(PtsId, Transaction)` — the key that looks obvious — would silently
+but `(PtsId, Transaction)`, the key that looks obvious, would silently
 merge real sales and lose revenue. The correct key includes `Pump`. Within
 `(PtsId, Pump, Transaction)` there are zero conflicts; the only repeats
 are the resends in #2.
 
 **4. One sale's `Amount` doesn't match `Volume x Price`.** Station B,
 pump 4, txn 4997 (Diesel): `Amount = 1064.20` SAR, but
-`64.11 L x 1.66 = 106.42` SAR — a factor of 10, most likely a decimal-place
+`64.11 L x 1.66 = 106.42` SAR a factor of 10, most likely a decimal-place
 error upstream. Both `amount_reported` (as sent) and `amount_expected`
 (computed with exact decimals) are stored; the report flags any gap over
 0.02 SAR for someone to verify with the station.
 
-**5. Station D's clock runs on UTC — its offset of 0 is correct.**
+**5. Station D's clock runs on UTC its offset of 0 is correct.**
 Station D is the only controller registered with `utc_offset_minutes = 0`,
 which looks like a metadata mistake at first. The data says otherwise: A,
 B, C (and the unregistered controller) record tank readings at 06:0x and
-18:0x on their own clocks; Station D records them at 03:0x and 15:0x —
+18:0x on their own clocks; Station D records them at 03:0x and 15:0x 
 the same schedule, shifted exactly 3 hours. Its sales hours are consistent
 with the same shift (its morning peak sits at 02-04 on its clock vs 05-07
 elsewhere). So D's timestamps are UTC and the offset is right. Worth
 confirming once with whoever maintains `stations.json`, but I would not
 "fix" it.
 
-**6. Tank levels and recorded sales don't reconcile — by 17-44x.**
+**6. Tank levels and recorded sales don't reconcile by 17-44x.**
 Between each tank's first and last reading (about 2.5 days), tank volume
 drops 7,000-11,000 L, while pump sales of that grade in the same window
 total 190-490 L. Since per-pump transaction numbers are contiguous, sales
